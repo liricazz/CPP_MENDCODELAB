@@ -24,7 +24,7 @@ protected:
 public:
     Polygon(const vector<Point<T>>& pts) : points(pts) {
         if (pts.size() < 3) {
-            throw "Ошибка: многоугольник должен иметь минимум 3 точки!";
+            throw "Ошибка: многоугольник должен иметь минимум 3 точки!!!";
         }
         polygonCount++;
     }
