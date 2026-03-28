@@ -121,7 +121,7 @@ int main() {
             Point<double> p4(x4, y4), p5(x5, y5), p6(x6, y6), p7(x7, y7);
             Rectangle<double> rectangle(p4, p5, p6, p7);
 
-            cout << "\n--- ИНФОРМАЦИЯ О ФИГУРАХ ---" << endl;
+            cout << "\n ИНФОРМАЦИЯ О ФИГУРАХ: " << endl;
             printTriangle(triangle);
             cout << endl;
             printRectangle(rectangle);
