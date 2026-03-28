@@ -87,21 +87,21 @@ int main() {
     try {
         vector<Person*> persons;
 
-        cout << "Введите данные сотрудника (имя возраст зарплата): ";
+        cout << "Введите данные сотрудника (имя, возраст, зарплата): ";
         string name1;
         int age1;
         double salary;
         cin >> name1 >> age1 >> salary;
         persons.push_back(new Employee(name1, age1, salary));
 
-        cout << "Введите данные студента (имя возраст средний балл): ";
+        cout << "Введите данные студента (имя, возраст, средний балл): ";
         string name2;
         int age2;
         double grade;
         cin >> name2 >> age2 >> grade;
         persons.push_back(new Student(name2, age2, grade));
 
-        cout << "Введите данные работающего студента (имя возраст зарплата средний балл): ";
+        cout << "Введите данные работающего студента (имя, возраст, зарплата, средний балл): ";
         string name3;
         int age3;
         double salary2, grade2;
